@@ -1,0 +1,33 @@
+To write and run the Python code on the DigitalOcean Droplet, follow these steps:
+
+Connect to your Droplet via SSH:
+
+java
+Copy code
+ssh username@your-droplet-ip
+Replace "username" with your Droplet's username and "your-droplet-ip" with your Droplet's IP address.
+
+Once connected, create a new Python file for your subscriber application using a text editor:
+
+Copy code
+nano subscriber.py
+This will open a new file named "subscriber.py" in the nano text editor.
+
+Copy and paste the Python code you wrote for the subscriber application into the "subscriber.py" file.
+
+Save and exit the file by pressing Ctrl + X, then Y, then Enter.
+
+Install the necessary dependencies for the subscriber application by running the following commands:
+
+sql
+Copy code
+sudo apt-get update
+sudo apt-get install python-pip
+pip install paho-mqtt
+Run the subscriber application by executing the Python file:
+
+Copy code
+python subscriber.py
+This will start the subscriber application and it will begin listening for incoming messages on the specified MQTT topic.
+
+Note: Make sure to update the code with the correct MQTT broker IP address and credentials, as well as the database connection details.
