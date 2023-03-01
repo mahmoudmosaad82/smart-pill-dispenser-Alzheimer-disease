@@ -1,0 +1,700 @@
+  GNU nano 4.8                                                                                                                                                                                                                                             my_commands.txt                                                                                                                                                                                                                                                        
+    1  mosquitto_sub -h localhost -t test
+    2  sudo mosquitto_passwd -c /etc/mosquitto/passwd device
+    3  mosquitto_sub -h localhost -t test
+    4  mosquitto_pub -h localhost -t test -m "Hello, world!"
+    5  mosquitto_pub -h localhost -t test
+    6  mosquitto_pub -h localhost -t test -u device -p 12345678
+    7  mosquitto_sub -h localhost -t test -u "ruisantos" -P "YOUR_PASSWORD"
+    8  mosquitto_sub -h localhost -t test -u "device" -P "12345678"
+    9  sudo apt update && sudo apt upgrade -y
+   10  sudo apt install mosquitto mosquitto-clients -y
+   11  mosquitto_sub -h localhost -t test
+   12  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   13  sudo mosquitto_passwd -c /etc/mosquitto/passwd YOUR_USERNAME
+   14  sudo mosquitto_passwd -c /etc/mosquitto/passwd device
+   15  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   16  mosquitto_pub -h localhost -t test -m "Hello, world!"mosquitto_pub -h localhost -t test -m "Hello, world!"
+   17  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   18  mosquitto_sub -h localhost -t test
+   19  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   20  sudo nano /etc/mosquitto/conf.d/default.conf
+   21  sudo systemctl restart mosquitto
+   22  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   23  mosquitto_sub -h localhost -t test -u "device" -P "12345678" -m "Hello my name is mahmoud "
+   24  mosquitto_pub -h localhost -t test -m "Hello, world!" -u "ruisantos" -P "YOUR_PASSWORD"
+   25  mosquitto_sub -h localhost -t test -m " Hello from the other side" -u "device" -P "12345678"
+   26  --help
+   27  mosquitto_pub -h localhost -t test -m " Hello from the other side" -u "device" -P "12A
+   28  mosquitto_pub -h localhost -t test -m " Hello from the other side" -u "device" -P "12345678"
+   29  mosquitto_pub -h localhost -t test -m " Hello from the other side" -u "device" -P "12345678"
+   30  sudo nano /etc/systemd/system/nodered.service
+   31  sudo systemctl enable nodered.service
+   32  sudo reboot
+   33  sudo apt update && sudo apt upgrade -y
+   34  sudo apt install npm -y
+   35  sudo npm install -g --unsafe-perm node-red
+   36  sudo ufw allow 1880
+   37  node-red start
+   38  do-release-upgrade
+   39  reboot
+   40  sudo apt-get install mosquitto-clients
+   41  mosquitto_sub -h 178.62.79.44 -t sensors/livingroom/temp
+   42  mosquitto_pub -h 178.62.79.44 -t sensors/livingroom/temp -m "hello"
+   43  mosquitto_pub -h 178.62.79.44 -t sensors/livingroom/temp -m "hi"
+   44  mosquitto_sub -h 178.62.79.44 -t sensors/livingroom/temp
+   45  clc
+   46  clear
+   47  mosquitto_sub -h 178.62.79.44 -t sensors/livingroom/temp
+   48  mosquitto_pub -h 178.62.79.44 -t sensors/livingroom/temp -m "hi"
+   49  mosquitto_sub -h 178.62.79.44 -t sensors/livingroom/temp
+   50  mosquitto_pub -h 178.62.79.44 -t sensors/livingroom/temp -m "hi"
+   51  mosquitto_pub -h 178.62.79.44 -t sensors/livingroom/temp -m "i"
+   52  mosquitto_sub -h 178.62.79.44 -t sensors/livingroom/temp
+   53  ifconfig
+   54  python3 subscriber.py
+   55  cat subscriber.py
+   56  telnet IP PORT
+   57  cd environments/
+   58  sudo systemctl status postgresql
+   59  ىشىخ subscriber.py
+   60  nano subscriber.py
+   61  python3 subscriber.py
+   62  mosquitto_sub -h 178.62.79.44 -t device/schedule -m [1,2,3]
+   63  mosquitto_sub --help
+   64  mosquitto_pub -h 178.62.79.44 -t device/schedule -m [1,2,3]
+   65  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "[1,2,3]"
+   66  mosquitto_pub -h your-broker-ip-address -t your-topic -m '{"room_pos": 1, "hour": 2, "minute": 3}'
+   67  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '{"room_pos": 1, "hour": 2, "minute": 3}'
+   68  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "1,2,3"
+   69  nano subscriber.py
+   70  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "1,2,3"
+   71  nano subscriber.py
+   72  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "1,2,3"
+   73  sudo apt update
+   74  sudo apt install python3 python3-pip
+   75  nano subscriber.py
+   76  sudo apt-get update
+   77  sudo apt-get install python-pip
+   78  pip install paho-mqtt
+   79  nano subscriber.py
+   80  sudo apt-get install python3-psycopg2
+   81  mosquitto_pub -h localhost -t test -m "Hello, world!"
+   82  mosquitto_pub -h 178.62.79.44 -t test -m "Hello, world!"
+   83  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "Hello, world!"
+   84  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "Hello MY Dear My name is MAhmoud"
+   85  nano subscriber.py
+   86  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "Hello, world!"
+   87  ./pgadmin4 –ssh=your_username@your_droplet_ip
+   88  nano subscriber.py
+   89  sudo apt update
+   90  sudo apt install libgmp3-dev libpq-dev
+   91  sudo mkdir -p /var/lib/pgadmin4/sessions
+   92  sudo mkdir /var/lib/pgadmin4/storage
+   93  sudo mkdir /var/log/pgadmin4
+   94  sudo mkdir -p /var/lib/pgadmin4/sessions
+   95  sudo mkdir /var/lib/pgadmin4/storage
+   96  sudo mkdir -p /var/lib/pgadmin4/sessions
+   97  sudo mkdir /var/lib/pgadmin4/storage
+   98  sudo mkdir /var/log/pgadmin4
+   99  sudo mkdir -p /var/lib/pgadmin4/sessions
+  100  sudo mkdir /var/lib/pgadmin4/storage
+  101  sudo mkdir /var/log/pgadmin4
+  102  sudo chown -R sammy:sammy /var/lib/pgadmin4
+  103  sudo chown -R
+  104  sudo chown -R --helo
+  105  sudo chown -R --help
+  106  sudo chown -R root:root /var/lib/pgadmin4
+  107  sudo chown -R sammy:sammy /var/lib/pgadmin4
+  108  sudo chown -R root:root /var/lib/pgadmin4
+  109  cd environments/
+  110  source my_env/bin/activate
+  111  cd
+  112  dir
+  113  cd environments/
+  114  sudo mkdir -p /var/lib/pgadmin4/sessions
+  115  sudo mkdir /var/lib/pgadmin4/storage
+  116  sudo mkdir /var/log/pgadmin4
+  117  sudo mkdir -p /var/lib/pgadmin4/sessions
+  118  sudo mkdir /var/lib/pgadmin4/storage
+  119  sudo chown -R root:root /var/lib/pgadmin4
+  120  cd environments/
+  121  dir
+  122  mysql -u doadmin -p -h mysql-test-do-user-4915853-0.db.ondigitalocean.com -P 25060 -D defaultdb
+  123  psql -u doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -P 25060 -D defaultdb
+  124  apt install postgresql-client-common
+  125  psql -u doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -P 25060 -D defaultdb
+  126  apt install postgresql-client
+  127  psql -u doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -P 25060 -D defaultdb
+  128  psql -U doadmin -d defaultdb -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com
+  129  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -P 25060 -D defaultdb
+  130  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -P '25060' -D defaultdb
+  131  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com  -D defaultdb
+  132  psql --help
+  133  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  134  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com  -d defaultdb
+  135  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com
+  136  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  137  sudo systemctl status postgresql
+  138  sudo systemctl start postgresql
+  139  sudo apt-get install postgresql
+  140  sudo systemctl start postgresql
+  141  sudo systemctl status postgresql
+  142  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  143  psql -U doadmin  -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  144  nano subscriber.py
+  145  python subscriber.py
+  146  python3 subscriber.py
+   147  nano subscriber.py
+  148  python3 subscriber.py
+  149  nano subscriber.py
+  150  python3 subscriber.py
+  151  nano subscriber.py
+  152  python3 subscriber.py
+  153  nano subscriber.py
+  154  python3 subscriber.py
+  155  sudo apt-get install screen
+  156  screen
+  157  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "1,2,3"
+  158  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "2,2,3"
+  159  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "4,2,3"
+  160  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "3,2,3"
+  161  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "5,2,3"
+  162  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "3,2,3"
+  163  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "4,2,3"
+  164  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "2,2,3"
+  165  mosquitto_pub -h 178.62.79.44 -t device/schedule -m "1,2,3"
+  166  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '{"room_pos": 1, "hour": 2, "minute": 3}'
+  167  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '{[1,2,3]}'
+  168  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '{"room_pos": 1, "hour": 2, "minute": 3}'
+  169  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[1, 2, 3]'
+  170  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '1, 2, 3'
+  171  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[1, 2, 3]'
+  172  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '1, 2, 3'
+  173  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '{"room_pos": 1, "hour": 2, "minute": 3}'
+  174  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[1, 2, 3]'
+  175  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 2, 3]'
+  176  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[3, 2, 3]'
+  177  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[4, 2, 3]'
+  178  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[5, 2, 3]'
+  179  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[4, 2, 3]'
+  180  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[3, 2, 3]'
+  181  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 2, 3]'
+  182  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3]'
+  183  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,2,3,45,3,4,50,4,2,4,23]'
+  184  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,2,3,45,3,4,50,4,4,23]'
+  185  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,23]'
+  186  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 8, 3,1,23,3,5,3,42,3,4,50,4,4,33]'
+  187  cat output.txt
+  188  dir
+  189  cat output.txt
+  190  output.txt
+  191  cat output.txt
+  192  python3 subscriber.py
+  193  python subscriber.py > output.txt 2>&1
+  194  python subscriber.py
+  195  python3 subscriber.py > output.txt 2>&1
+  196  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,23,6,6,6]'
+  197  python3 subscriber.py
+  198  python3 subscriber.py
+  199  python3 subscriber.py
+  200  nano subscriber.py
+  201  python3 subscriber.py
+  202  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,23,6,6,6]'
+  203  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,25]'
+  204  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,25]'
+  205  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,25,6,6,6]'
+  206  dir
+  207  python3 publisher.py
+  208  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  209  psql -U doadmin  -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  210  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,4,1,23,3,2,3,45,3,4,50,4,4,23]'
+  211  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,4,1,253,3,2,3,45,3,4,50,4,4,23]'
+  212  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,5,1,253,3,2,3,45,3,4,50,4,4,23]'
+  213  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,5,1,253,3,4,3,45,3,4,50,4,4,23]'
+  214  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,6,1,253,3,4,3,45,3,4,50,4,4,23]'
+  215  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7,6,1,253,3,4,3,45,3,4,50,4,4,2,6,6,3,3]'
+  216  nano subscriber.py
+  217  python3 subscriber.py
+  218  python3 publisher.py
+  219  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  220  psql -U doadmin -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  221  python3 publisher.py
+  222  nano publisher.py
+  223  nano subscriber.py
+  224  nano publisher.py
+  225  dir
+  226  python3 subscriber.py
+  227  python subscriber.py > output.txt
+  228  python3 subscriber.py > output.txt
+  229  dir
+  230  python3 publisher.py
+  231  python3 subscriber.py
+  232  nano subscriber.py
+  233  psql -U doadmin -p -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  234  psql -U doadmin  -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  235  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,23]'
+  236  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,23]'
+  237  esp32/schedule
+  238  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,23]'
+  239  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  240  psql -U doadmin  -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  241  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  242  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  243  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  244  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,243]'
+  245  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  246  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  247  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,783]'
+  248  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  249  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,23,3,5,3,45,3,4,50,4,4,43]'
+  250  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,4,50,4,4,783]'
+  251  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  252  python3 subscriber.py
+  253  python3 publisher.py
+  254  # mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  255  # mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  256  # mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  257  nano subscriber.py
+  258  # mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  259  dir
+  260  nano subscriber.py.save
+  261  del subscriber.py.save
+  262  help
+  263  rm subscriber.py.save
+  264  dir
+  265  nano subscriber.py
+  266  screen -r
+  267  screen
+  268  exit
+  269  python3 publisher.py
+  270  nano subscriber.py
+  271  python3 subscriber.py
+  272  screen -r
+  273  python3 subscriber.py
+  274  python3 publisher.py
+  275  python3 subscriber.py &
+  276  python3 publisher.py &
+  277  python3 subscriber.py &
+  278  python3 subscriber.py
+  279  python3 subscriber.py
+  280  python3 subscriber.py &
+  281  python3 publisher.py &
+  282  python3 subscriber.py
+  283  python3 publisher.py &
+  284  python3 subscriber.py &
+  285  python3 publisher.py
+  286  python3 publisher.py &
+  287  python3 subscriber.py &
+  288  python3 publisher.py &
+  289  python3 subscriber.py
+  290  python3 publisher.py &
+  291  python3 subscriber.py &
+  292  pythone publisher.py &
+  293  python3 publisher.py &
+  294  python3 subscriber.py &
+  295  python3 subscriber.py &
+  296  python3 subscriber.py
+  297  python3 publisher.py &
+  298  python3 subscriber.py &
+  299  python3 subscriber.py
+  300  screen
+  301  nano subscriber.py
+  302  nano publisher.py
+  303  nano subscriber.py
+  304  nano publisher.py
+  305  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  306  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  307  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  308  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  309  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  310  mosquitto_pub -h 178.62.79.44 -t device/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  311  mosquitto_pub -h 178.62.79.44 -t esp32/device -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  312  python3 subscriber.py
+  313  mosquitto_sub -h 178.62.79.44 -t esp32/schedule
+  314  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,743]'
+  315  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,73]'
+  316  screen
+  317  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,73]'
+  318  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,7883]'
+  319  screen -r
+  320  screen -r 23934
+  321  screen -r
+  322  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  323  screen -r
+  324  screen
+  325  screen -r
+  326  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,7883]'
+  327  screen
+  328  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2, 7, 3,1,22,3,5,3,45,3,74,50,4,4,7883]'
+  329  screen -r
+  330  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  331  screen -r
+  332  screen
+  333  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,7883]'
+  334  screen
+  335  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,789763]'
+  336  screen
+  337  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,789763]'
+  338  screen
+  339  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,7893]'
+  340  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  341  screen
+  342  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,7893]'
+  343  nano subscriber.py
+  344  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,77]'
+  345  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  346  screen
+  347  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,77]'
+  348  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  349  screen
+  350  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  351  screen
+  352  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  353  screen
+  354  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,77]'
+  355  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,78]'
+  356  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  357  screen -r
+  358  nano subscriber.py
+  359  screen -r
+  360  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  361  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  362  screen
+  363  nano subscriber.py
+  364  screen
+  365  nano subscriber.py
+  366  screen
+  367  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  368  screen
+  369  nano subscriber.py
+  370  screen
+  371  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  372  screen -r
+  373  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  374  nano subscriber.py
+  375  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  376  nano subscriber.py
+  377  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  378  screen
+  379  screen -r
+  380  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  381  screen
+  382  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  383  nano subscriber.py
+  384  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,78]'
+  385  screen
+  386  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,78]'
+  387  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,758]'
+  388  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  389  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,758]'
+  390  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,7458]'
+  391  sudo nano /etc/systemd/system/postgresql.service
+  392  sudo systemctl daemon-reload
+  393  sudo systemctl enable postgresql.service
+  394  sudo systemctl status postgresql.service
+  395  nano subscriber.py
+  396  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,7538]'
+  397  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,78]'
+  398  screen -r
+  399  python3 subscriber.py
+  400  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,738]'
+  401  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,778]'
+  402  python3 subscriber.py
+  403  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,5,4,4,978]'
+  404  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,378]'
+  405  psql -U doadmin  -h db-postgresql-lon1-53471-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  406  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,378]'
+  407  dir
+  408  screen
+  409  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,378]'
+  410  screen -r
+  411  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  412  python3 subscriber.py
+  413  nano subscriber.py
+  414  python3 subscriber.py
+  415  nano subscriber.py
+  416  nano publisher.py
+  417  screen
+  418  screen -r
+  419  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  420  nano subscriber.py
+  421  psql -U doadmin  -h db-postgresql-lon1-53471-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  422  python3 publisher.py &
+  423  python3 subscriber.py &
+  424  python3 publisher.py &
+  425  python3 subscriber.py &
+  426  python3 publisher.py &
+  427  python3 subscriber.py &
+  428  python3 publisher.py &
+  429  åd
+  430  python3 subscriber.py &
+  431  python3 publisher.py &
+  432  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  433  python3 subscriber.py
+  434  nano subscriber.py
+  435  python3 subscriber.py
+  436  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  437  python3 subscriber.py
+  438  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  439  nano subscriber.py
+  440  nano publisher.py
+  441  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  442  screen
+  443  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  444  python3 subscriber.py
+  445  screen -r
+  446  nano publisher.py
+  447  nano subscriber.py
+  448  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  449  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  450  screen
+  451  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  452  nano subscriber.py
+  453  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  454  screen
+  455  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  456  screen -r
+  457  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  458  screen
+  459  screen -r
+  460  python3 subscriber.py
+  461  nano subscriber.py [A
+  462  python3 subscriber.py
+  463  screen -r
+  464  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  465  nano subscriber.py
+  466  python3 subscriber.py
+  467  nano subscriber.py
+  468  python3 subscriber.py
+  469  nano subscriber.py
+  470  python3 subscriber.py
+  471  nano subscriber.py
+  472  python3 subscriber.py
+  473  nano subscriber.py
+  474  python3 subscriber.py
+  475  nano subscriber.py
+  476  python3 subscriber.py
+  477  nano subscriber.py
+  478  python3 subscriber.py
+  479  nano subscriber.py
+  480  python3 subscriber.py
+  481  nano subscriber.py
+  482  python3 subscriber.py
+  483  python3 subscriber1.py &
+  484  python3 subscriber1.py &
+  485  python3 publisher.py &
+  486  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  487  screen
+  488  python3 subscriber1.py
+  489  python3 subscriber1.py &
+  490  python3 publisher.py &
+  491  python3 subscriber1.py &
+  492  python3 publisher.py &
+  493  python3 subscriber1.py &
+  494  python3 publisher.py &
+  495  python3 subscriber1.py &
+  496  python3 publisher.py &
+  497  python3 subscriber1.py &
+  498  python3 publisher.py &
+  499  python3 subscriber1.py &
+  500  python3 publisher.py &
+  501  python3 subscriber1.py &
+  502  python3 publisher.py &
+  503  python3 subscriber1.py &
+  504  python3 publisher.py &
+  505  nano subscriber.py
+  506  nano subscriber1.py
+  507  python3 subscriber1.py
+  508  screen -r
+  509  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  510  screen
+  511  screen -r
+  512  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  513  screen
+  514  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  515  screen
+  516  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  517  screen
+  518  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  519  screen
+  520  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  521  screen
+  522  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  523  screen
+  524  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  525  screen
+  526  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  527  screen
+  528  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  529  screen
+  530  screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
+  531  screen -r
+  532  python3 subscriber1.py
+  533  nohup python3 subscriber.py > subscriber.log 2>&1 &
+  534  nohup python3 subscriber1.py > subscriber.log 2>&1 &
+  535  1
+  536  chmod +x subscriber1.py
+  537  ps aux | grep subscriber.py   # find the PID of the subscriber script
+  538  kill <PID>                    # stop the subscriber script
+  539  kill <32835>                    # stop the subscriber script
+  540  kill <'32835'>                    # stop the subscriber script
+  541  kill <'32835'>
+  542  kill <32299>
+  543  kill <'32299'>
+  544  ps aux | grep python3
+  545  killall python3
+  546  ps aux | grep python3
+  547  ps aux | grep python
+  548  kill 32883
+  549  kill 8160
+  550  kill 29872
+  551  pkill python
+  552  ps aux | grep python
+  553  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  554  chmod +x subscriber1.py
+  555  cd /root
+  556  pwd
+  557  nano subscriber.py
+  558  python3 subscriber.py
+  559  nano subscriber.py
+  560  python3 subscriber.py
+  561  nano subscriber.py
+  562  python3 subscriber.py
+  563  nano subscriber.py
+  564  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,3788]'
+  565  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38]'
+  566  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,6]'
+  567  nano subscriber1.py
+  568  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,61]'
+  569  nano subscriber1.py
+  570  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,62]'
+  571  nano subscriber1.py
+  572  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,62]'
+  573  nano subscriber1.py
+  574  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,62]'
+  575  nano subscriber1.py
+  576  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,62]'
+  577  nano subscriber1.py
+  578  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,62]'
+  579  pwd
+  580  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,52]'
+  581  mosquitto_pub -h 178.62.79.44 -t esp32/schedule -m '[2,7,3,1,22,3,5,3,45,3,74,50,4,4,38,6,6,12]'
+  582  exit
+  583  python3 subscriber1.py
+  584  sudo systemctl status subscriber1
+  585  sudo systemctl status subscriber1.py
+  586  sudo systemctl daemon-reload
+  587  sudo systemctl start subscriber1
+  588  sudo systemctl start subscriber1.py
+  589  systemctl enable subscriber1
+  590  systemctl enable subscriber1.py
+  591  dir
+  592  screen -r
+  593  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  594  dir
+  595  nano subscriber1.log
+  596  nano subscriber.log
+  597  nano subscriber1.log
+  598  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  599  nano subscriber1.py
+  600  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  601  nano subscriber1.log
+  602  pkill python
+  603  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  604  nano subscriber1.log
+  605  nano publisher.py
+  606  pwd
+  607  dir
+  608  cd /root
+  609  pwd
+  610  cd /dir
+  611  ls
+  612  cd publisher.py
+  613  cd /root
+  614  ls
+  615  /root/publisher.py
+  616  python /root/publisher.py
+  617  python3 /root/publisher.py
+  618  sudo nano /etc/systemd/system/publisher.service
+  619  sudo systemctl daemon-reload
+  620  sudo systemctl start publisher
+  621  sudo systemctl enable publisher
+  622  ls
+  623  ps -ef
+  624  sudo nano /etc/systemd/system/publisher.service
+  625  sudo systemctl status mqtt-publisher
+  626  sudo systemctl status publisher
+  627  sudo systemctl status
+  628  sudo nano /etc/systemd/system/subscriber.service
+  629  sudo systemctl daemon-reload
+  630  sudo systemctl enable subscriber.service
+  631  sudo systemctl start subscriber.service
+  632  sudo systemctl status subscriber.service
+  633  sudo journalctl -u subscriber.service
+  634  exit
+  635  sudo journalctl -u subscriber.service
+  636  python3 subscriber1.py
+  637  sudo journalctl -u subscriber.service
+  638  ls
+  639  python3 subscriber1.py
+  640  nano subscriber1.py
+  641  nano publisher.py.py
+  642  nano publisher.py
+  643  dir
+  644  ls
+  645  sudo systemctl status subscriber.service
+  646  sudo journalctl -u subscriber.service
+  647  sudo systemctl status subscriber.service
+  648  sudo systemctl status publisher.service
+  649  ls
+  650  ps aux | grep python
+  651  kill 36675
+  652  ps aux | grep pytho
+  653  kill 39448
+  654  kill 25892
+  655  kill 25pkill python
+  656  ps aux | grep python
+  657  sudo systemctl status subscriber.service
+  658  systemctl list-units | grep python
+  659  python3 subscriber1.py
+  660  ls
+  661  ps aux | grep python
+  662  sudo systemctl stop subscriber
+  663  ps aux | grep python
+  664  python3 subscriber1.py
+  665  ls
+  666  sudo systemctl stop publisher
+  667  ps aux | grep python
+  668  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  669  nohup python3 publisher.py > publisher.log 2>&1 &
+  670  ls
+  671  nano subscriber1.log
+  672  ps aux | grep python
+  673  nano subscriber1.log
+  674  python3 subscriber1.py
+  675  ps aux | grep python
+  676  pkill python
+  677* ps aux | grep pytho
+  678  python3 subscriber1.py
+  679  nohup python3 subscriber1.py > subscriber1.log 2>&1 &
+  680  nohup python3 publisher.py > publisher.log 2>&1 &
+  681  psql -U doadmin  -h db-postgresql-lon1-21641-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  682  psql -U doadmin  -h db-postgresql-lon1-53471-do-user-13614739-0.b.db.ondigitalocean.com -p 25060 -d defaultdb
+  683  nmap -p 1-65535 178.62.79.44
+  684  sudo apt-get install nmap
+  685  nmap -p 1-65535 178.62.79.44
+  686  xit
+  687  exit
+  688  ps aux | grep python
+  689  ls
+  690  nano subscriber1.py
+  691  ls
+  692  nano output.txt
+  693  nano publisher.log
+  694  nano publisher.py
+  695  nano snap
+  696  nano subscriber.log
+  697  nano subscriber.py
+  698  nano subscriber1.py
+  699  history > my_commands.txt
