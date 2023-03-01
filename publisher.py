@@ -18,7 +18,7 @@ except psycopg2.OperationalError as e:
     exit()
 
 # MQTT broker configuration
-broker_address = "178.62.79.44"
+broker_address = "104.248.168.191"
 broker_port = 1883
 client_id = "publisher"
 
